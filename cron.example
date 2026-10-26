@@ -1,0 +1,2 @@
+# Run the Node.js worker at server reboot. The worker polls every 30 seconds.
+@reboot /Users/akshanshupal/Projects/Backend/hello_travel_lead_cron/run_worker.sh >> /Users/akshanshupal/Projects/Backend/hello_travel_lead_cron/worker.log 2>&1
